@@ -171,6 +171,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         width: 100%;
     }
 
+    .image.classroom {
+        float: center;
+        margin: 0 0 0 0;
+        width: 400px;
+        height: 300px;
+    }
+
+    .image.classroom img {
+        width: 100%;
+    }
+
 /* logobar */
     /* Add a black background color to the top navigation */
     .logobar {
@@ -556,3 +567,209 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	header p {
 		color: #717171;
 	}
+
+
+
+#two {
+		padding: 6em 0 4em 0;
+		background: #f3f3f3;
+		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
+	}
+
+		#two .inner {
+			display: -ms-flexbox;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: row;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+		}
+
+			#two .inner article {
+				width: 50%;
+			}
+
+				#two .inner article:first-child {
+					padding-right: 6em;
+				}
+
+				#two .inner article:last-child {
+					padding-left: 6em;
+				}
+
+		@media screen and (max-width: 980px) {
+
+			#two {
+				padding: 4em 0 2em 0;
+				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+				background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
+			}
+
+				#two .inner {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+				}
+
+					#two .inner article {
+						width: 100%;
+					}
+
+						#two .inner article:first-child {
+							padding-right: 0;
+							padding-bottom: 2em;
+						}
+
+						#two .inner article:last-child {
+							padding-left: 0;
+							padding-top: 2em;
+						}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#two {
+				padding: 2em 0 0.1em 0;
+			}
+
+		}
+
+
+        .container {
+          display: flex;
+            background-color: #f9f9f9; 
+            
+        }
+        .container > div {
+          flex: 1; /*grow*/
+          width: 80%;
+        }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    
+
+    nav {
+      line-height: 1.5;
+      margin: 10px auto;
+      width: 300px;
+      -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+         -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+              box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .menu-item {
+      background: #fff;
+      width: 300px; 
+    }
+
+    /*Menu Header Styles*/
+    .menu-item h4 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 3px 2px;
+      background: #bbff99;
+    }
+
+    .menu-item h4 a {
+      color: black;
+      display: block;
+      text-decoration: none;
+      width: 200px;
+    }
+
+    /*Menu Header Styles*/
+    .menu-item h4 {
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      border-top: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 7px 12px;
+
+      /*Gradient*/
+      background: #bbff99; /* Old browsers */
+      background: -moz-linear-gradient(top, #bbff99 0%, #ccffb3 44%, #6d0019 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbff99), color-stop(44%,#eeffe6), color-stop(100%,#bbff99)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #bbff99 0%,#ccffb3 44%,#eeffe6 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #bbff99 0%,#ccffb3 44%,#eeffe6 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #bbff99 0%,#ccffb3 44%,#eeffe6 100%); /* IE10+ */
+      background: linear-gradient(top, #bbff99 0%,#ccffb3 44%,#eeffe6 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbff99', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    }
+
+
+    .menu-item h4:hover {  
+      background: #cc002c; /* Old browsers */
+      background: -moz-linear-gradient(top,  #bbff99 0%, #eeffe6 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbff99), color-stop(100%,#eeffe6)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #bbff99 0%,#eeffe6 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #bbff99 0%,#eeffe6 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #bbff99 0%,#eeffe6 100%); /* IE10+ */
+      background: linear-gradient(top,  #bbff99 0%,#eeffe6 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbff99', endColorstr='#eeffe6',GradientType=0 ); /* IE6-9 */
+    }
+
+    /*ul Styles*/
+    .menu-item ul {
+      background: #fff;
+      font-size: 13px;
+      line-height: 30px;
+      list-style-type: none;
+      overflow: hidden;
+      padding: 0px;
+    }
+
+    .menu-item ul a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #aaa;
+      display: block;
+      width: 200px;
+    }
+
+    /*li Styles*/
+    .menu-item li {
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item li:hover {
+      background: #eee;
+    }
+
+    /*ul Styles*/
+    .menu-item ul {
+      background: #fff;
+      font-size: 13px;
+      line-height: 30px;
+      height: 0px; /*Collapses the menu*/
+      list-style-type: none;
+      overflow: hidden;
+      padding: 0px;
+  
+
+      /*Animation*/
+      -webkit-transition: height 1s ease;
+         -moz-transition: height 1s ease;
+           -o-transition: height 1s ease;
+          -ms-transition: height 1s ease;
+              transition: height 1s ease;
+    }
+
+    .menu-item:hover ul {
+      height: 93px;
+    }
