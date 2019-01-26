@@ -1,0 +1,476 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+
+/*
+	Author: Meredith Van De Velde
+    Credits here
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+/* Text */
+
+    body {
+		line-height: 1;
+        -ms-overflow-style: scrollbar;
+        min-width: 320px;
+        background: #fff;
+        background-color: #fff;
+		color: #111111;
+        font-family: "Lato", sans-serif;
+		font-size: 15pt;
+		font-weight: 300;
+		line-height: 2;
+	}
+
+    h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    h1 {
+		font-size: 2em;
+		margin: 0 0 0.25em 0;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.35em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+/* Colors */
+
+    input, select, textarea {
+		color: #ff9966;
+	}
+
+	a {
+		color: #ff9966;
+	}
+
+	strong, b {
+		color: #ff9966;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ff9966;
+	}
+
+    blockquote {
+		border-left-color: #ff9966;
+	}
+
+	code {
+		background: none;
+		border-color: #ff9966;
+	}
+
+	hr {
+		border-bottom-color: #ff9966;
+	}
+
+/* Image */
+
+    .image {
+		border-radius: 0;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+    .image img {
+        border-radius: 0;
+        display: block;
+    }
+
+    .image.left, .image.right {
+        max-width: 40%;
+    }
+
+    .image.left img, .image.right img {
+        width: 100%;
+    }
+
+    .image.left2 img, .image.right2 img  {
+        width: 350px;
+    }
+
+    .image.left {
+        float: left;
+        margin: 0 1.5em 1em 0;
+        top: 0.25em;
+    }
+
+    .image.right {
+        float: right;
+        margin: 0 0 1em 1.5em;
+        top: 0.25em;
+    }
+
+    .image.fit {
+        display: block;
+        margin: 0 0 2em 0;
+        width: 10x0%;
+    }
+
+	.image.fit img {
+        width: 100%;
+    }
+
+    .image.main {
+        display: block;
+        margin: 0 0 3em 0;
+        width: 100%;
+    }
+	
+    .image.main img {
+        width: 100%;
+    }
+
+/* topnav */
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #ff9966;
+      overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ffbb99;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #acfdb6;
+      color: white;
+    }
+
+/* Banner */
+
+	#banner {
+		background-color: #fa3237;
+		color: #f2a3a5;
+		padding: 13em 0 11em 0;
+		background-color: #0c0c0c;
+		background-image: url("../../images/ArchLandscape.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 15% left;
+		text-align: left;
+		position: relative;
+		z-index: 9999;
+	}
+
+		#banner input, #banner select, #banner textarea {
+			color: #ffffff;
+		}
+
+		#banner a {
+			color: #ffffff;
+		}
+
+		#banner strong, #banner b {
+			color: #ffffff;
+		}
+
+		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+			color: #fff;
+		}
+
+		#banner blockquote {
+			border-left-color: #fff;
+		}
+
+		#banner code {
+			background: none;
+			border-color: #fff;
+		}
+
+		#banner hr {
+			border-bottom-color: #fff;
+		}
+
+		#banner input[type="submit"],
+		#banner input[type="reset"],
+		#banner input[type="button"],
+		#banner button,
+		#banner .button {
+			background-color: #5a5a5a;
+			color: #ffffff !important;
+		}
+
+			#banner input[type="submit"]:hover,
+			#banner input[type="reset"]:hover,
+			#banner input[type="button"]:hover,
+			#banner button:hover,
+			#banner .button:hover {
+				background-color: #676767;
+			}
+
+			#banner input[type="submit"]:active,
+			#banner input[type="reset"]:active,
+			#banner input[type="button"]:active,
+			#banner button:active,
+			#banner .button:active {
+				background-color: #4d4d4d;
+			}
+
+			#banner input[type="submit"].alt,
+			#banner input[type="reset"].alt,
+			#banner input[type="button"].alt,
+			#banner button.alt,
+			#banner .button.alt {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px #fff;
+				color: #ffffff !important;
+			}
+
+				#banner input[type="submit"].alt:hover,
+				#banner input[type="reset"].alt:hover,
+				#banner input[type="button"].alt:hover,
+				#banner button.alt:hover,
+				#banner .button.alt:hover {
+					background: rgba(255, 255, 255, 0.25);
+				}
+
+				#banner input[type="submit"].alt:active,
+				#banner input[type="reset"].alt:active,
+				#banner input[type="button"].alt:active,
+				#banner button.alt:active,
+				#banner .button.alt:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				#banner input[type="submit"].alt.icon:before,
+				#banner input[type="reset"].alt.icon:before,
+				#banner input[type="button"].alt.icon:before,
+				#banner button.alt.icon:before,
+				#banner .button.alt.icon:before {
+					color: #f8d1d2;
+				}
+
+			#banner input[type="submit"].special,
+			#banner input[type="reset"].special,
+			#banner input[type="button"].special,
+			#banner button.special,
+			#banner .button.special {
+				background-color: #ffffff;
+				color: #fa3237 !important;
+			}
+
+		#banner:after {
+			-moz-transition: opacity 4s ease;
+			-webkit-transition: opacity 4s ease;
+			-ms-transition: opacity 4s ease;
+			transition: opacity 4s ease;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: block;
+			top: 0;
+			left: 0;
+			background-color: #0c0c0c;
+			opacity: 0.25;
+		}
+
+		#banner .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+			position: relative;
+			z-index: 10000;
+			line-height: 1.5;
+		}
+
+			@media screen and (max-width: 480px) {
+
+				#banner .inner {
+					max-width: 90%;
+					width: 90%;
+				}
+
+			}
+
+		#banner h1 {
+			font-size: 2.50em;
+			margin: 0 0 1em 0;
+			padding: 0;
+			letter-spacing: 3px;
+			font-weight: 700;
+		}
+
+			#banner h1 span {
+				font-weight: 400;
+			}
+
+		body.is-loading #banner:after {
+			opacity: 1;
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner {
+				padding: 10em 0 8em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner {
+				padding: 8em 0 6em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner {
+				padding: 12em 0 10em 0;
+			}
+
+				#banner br {
+					display: none;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner {
+				padding: 4em 0 2em 0;
+			}
+
+				#banner h1 {
+					font-size: 1.75em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner {
+				padding: 5em 0 3em 0;
+			}
+
+				#banner ul {
+					margin-top: 1em;
+				}
+
+		}
+
+/* Section/Article */
+
+    section.special, article.special {
+		text-align: center;
+	}
+
+	section .inner {
+		max-width: 65em;
+		width: calc(100% - 6em);
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 480px) {
+
+			section .inner {
+				max-width: 90%;
+				width: 90%;
+			}
+
+		}
+
+/* Header */
+
+    #header .logo {
+		font-family: 'Yeseva One', cursive;
+        display: inline-block;
+        height: inherit;
+        left: 0;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        color: #fa3237;
+        font-size: 2.50em;
+        text-transform: none;
+        font-weight: normal;
+        padding: 0;
+    }
+
+			#header .logo:hover {
+				color: #717171;
+			}
+
+	header p {
+		position: relative;
+		margin: 0 0 1.5em 0;
+	}
+
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+	}
+
+	header h3 + p {
+		font-size: 1.1em;
+		margin-top: -0.8em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+	}
+
+	header p {
+		color: #717171;
+	}
