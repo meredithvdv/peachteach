@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Name
+    references and stuff
+-->
+<html>
+	<head>
+        <!-- Links here -->
+        <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+        
+		<title>PeachTeach</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="CC.css" />
+        <!-- Image for icon here -->
+        <link rel="icon" type="image/png" href="images/peachedit.png" />
+	</head>
+    
+    <body>
+        <!-- Coding widget -->
+        
+        
+        
+
+		<!-- Header -->
+        <header id="header">
+            <div class="logobar">
+                <!-- Links in nav bar -->
+                <a href="CollegiateCupBase.html">PeachTeach</a>
+                <div class="image small">
+				    <img src="images/peachedit.png" alt="Peach image"/>
+				</div>
+            </div>
+        </header>
+        <a href="#menu" class="navPanelToggle"> <span class="fa fa-bars"></span></a>
+        
+        
+ 
+        
+        <!-- Main -->
+        <section id="main" >
+            
+            <div class="navbar">
+                <!-- Links in nav bar -->
+                <a href="CollegiateCupBase.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="lessonsHome.html">Lessons</a>
+                <a href="forum.html">Forum</a>
+                <a href="#news">Feedback</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+        <!-- Sticky script -->
+        <script>// When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+            
+				<div class="inner">
+                    <p></p>
+					<header>
+						<h1><br/>Forum</h1>
+					</header>
+                    <p></p>
+                    
+                    <h3>Teaching pass-by-reference to java students</h3>
+                    <h5>Post by Teacher Terry</h5>
+                    <div class="postbody">
+                        My students just can't seem to grasp the difference between pass-by-value and pass-by-reference! I'll admit I don't fully understand it myself... Does anybody have a useful resource or explanation that worked for your students? HELP!
+                    </div>
+                    <div class="comment">
+                        <div class="commentUser">Expert Reggie</div>
+                        <div class="commentBody">This is a really hard question! It's one of the most difficult concepts for newcomers to grasp, and I totally understand your problem. When I taught it, <a>this video</a> really seemed to click with my students.</div>
+                    </div>
+                    <br><br><br><br>
+                    <form>
+                        <h4><b>Response</b></h4>
+                        User Name: <input type="text" name="uname"><br>
+                        Topic: <input type="text" name="topic"><br>
+                        Post: <input type="text" name="post"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                    
+            </div>
+        </section>
+    </body>
+</html>
