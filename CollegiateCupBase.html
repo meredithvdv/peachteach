@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="CC.css" />
         <!-- Image for icon here -->
-        <link rel="icon" type="image/jpg" href="images/peach-icon-vector.jpg" />
+        <link rel="icon" type="image/png" href="images/peachedit.png" />
 	</head>
     
     <body>
@@ -28,34 +28,86 @@
                 <!-- Links in nav bar -->
                 <a href="CollegiateCupBase.html">PeachTeach</a>
                 <div class="image small">
-				    <img src="images/peach-icon-vector.jpg" alt="Peach image"/>
+				    <img src="images/peachedit.png" alt="Peach image"/>
 				</div>
             </div>
         </header>
         <a href="#menu" class="navPanelToggle"> <span class="fa fa-bars"></span></a>
+        
+        
  
         
         <!-- Main -->
         <section id="main" >
             
-            <div class="topnav">
+            <div class="navbar">
                 <!-- Links in nav bar -->
                 <a href="CollegiateCupBase.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="#news">News</a>
+                <a href="lessonsHome.html">Lessons</a>
                 <a href="#news">Forum</a>
                 <a href="#news">Feedback</a>
                 <a href="#contact">Contact</a>
             </div>
             
+        <!-- Sticky script -->
+        <script>// When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+            
 				<div class="inner">
-                    <p></p>
 					<header>
-						<h4>Placeholder lol</h4>
+                        <p></p>
+						<h1>Welcome to PeachTeach</h1>
 					</header>
                     <p></p>
                     
-
+                    <section id="two">
+				    <div class="inner">
+					<article>
+						<div class="content">
+							
+				            <h3>View Teacher Resources</h3>
+							<img src="/images/csClass.jpg" alt="" />
+							
+							
+                            <ul class="actions">
+						      <li><a href="" class="button alt">Apply Here</a></li>
+					       </ul>
+						</div>
+					</article>
+                        
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>Events and Activities</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/StreetCleanup.jpg" alt="" />
+							</div>
+							<p>Learn more about what the Tate Society does, including our monthly service opportunities and several outreach projects.</p>
+                            <ul class="actions">
+						      <li><a href="EventsUpdate.html" class="button alt">Learn More</a></li>
+					        </ul>
+						</div>
+					</article>
+				</div>
+			</section>
                     
 					<p>Lorem ipsum dolor sit amet, tortor faucibus duis nulla, sed a elementum fermentum vel. Purus velit ut in dui. Tincidunt velit a quis nulla nec, quis viverra suspendisse odio molestie donec, pulvinar nulla nullam sagittis semper, integer pede nunc. Vestibulum elit quis in eget id dictum, est nec pharetra ridiculus non consequat. Metus ipsum platea sed tincidunt erat, cras dui egestas. Non interdum sit, faucibus quis risus vestibulum pellentesque porta, lectus sed, ipsum risus sem est posuere suscipit, in vitae dolor. Tortor consectetuer ultrices nisl pulvinar, ac pharetra justo nec vitae orci id, fringilla cras vel id lacinia ullamcorper, quis ultrices in et viverra quisque. Dictumst lectus quam sodales. Pellentesque vel sit leo aliquam mauris vulputate. Fermentum ut, nec hymenaeos sodales pellentesque orci et, dictumst orci nulla dui cras arcu est, dolor libero sed ultricies, ut magna elit.</p>
                     <p></p>
