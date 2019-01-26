@@ -773,3 +773,44 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .menu-item:hover ul {
       height: 93px;
     }
+
+	.postbody {
+	    border-style: solid;
+	    border-width: thin;
+	    border-radius: 5px;
+	    padding: 20px;
+	}
+
+	.comment {
+	    padding: 15px;
+	    height=100px;
+	}
+
+	.commentUser {
+	    float:left;
+	    width: 20%;
+
+	}
+
+	.commentBody {
+	    float:right;
+	    width:75%;
+	    border-left: thin solid;
+	    padding-left: 10px;
+	    font-size: 12pt;
+	}
+
+	#posts {
+	    border-collapse: collapse;
+	}
+
+	#posts td, #posts th {
+	    border: 1px solid;
+	    padding: 8px;
+	}
+
+	#posts th {
+	    padding-top: 12px;
+	    padding-bottom: 12px;   
+	    text-align: left;
+	}
